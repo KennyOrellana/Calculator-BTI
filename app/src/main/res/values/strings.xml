@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Calculadora BTI</string>
+    <string name="liters_placeholder">%1$s litros</string>
+    <string name="bti_placeholder">%1$s gramos de BTI</string>
+    <string name="measures_to_bti">Medidas a BTI</string>
+    <string name="liters">Litros</string>
+    <string name="gallons">Galones</string>
+    <string name="cubic_meters">Metros Cúbicos</string>
+    <string name="volume">Volumen</string>
+    <string name="volume_to_bti">Volumen a BTI</string>
+    <string name="centimeters">Centímetros</string>
+    <string name="inches">Pulgadas</string>
+    <string name="parallelepiped">Paralelepípedo</string>
+    <string name="long_measure">Largo</string>
+    <string name="cylinder">Cilindro</string>
+    <string name="wide">Ancho</string>
+    <string name="tall">Altura</string>
+    <string name="diameter">Díametro</string>
+    <string name="website">www.kaisa.app</string>
+    <string name="email_kenny">kenny@kaisa.app</string>
+    <string name="made_by">Desarrollado por Kenny Orellana</string>
+    <string name="about">Información</string>
+    <string name="info">Esta app calcula la cantidad de BTI que se debe aplicar a un contenedor de agua. BTI es un bacilo no perjudicial para los humanos y se utiliza para eliminar las larvas de mosquitos, especialmente el Aedes Aegipty que transmite enfermedades como Dengue, Zika, Chikungunya y la Fiebre amarilla entre otras.</string>
+    <string name="bti_grams">Gramos de BTI</string>
+    <string name="clear">Limpiar</string>
+</resources>
