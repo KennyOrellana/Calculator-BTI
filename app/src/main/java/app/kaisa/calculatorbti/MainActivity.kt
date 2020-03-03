@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         et_diameter.doAfterTextChanged { calculateVolumeShape() }
         et_volume.doAfterTextChanged { convertVolume() }
 
-        rg_shape.setOnCheckedChangeListener { radioGroup, id ->
+        rg_shape.setOnCheckedChangeListener { _, id ->
             when(id) {
                 rb_parallelepiped.id -> {
                     et_long?.visibility = View.VISIBLE
