@@ -62,6 +62,8 @@ class MainActivity : AppCompatActivity() {
 //            AnalyticsManager.trackDeepLink()
         }
 
+        fab?.setOnClickListener { clear() }
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             tv_info?.justificationMode = JUSTIFICATION_MODE_INTER_WORD
         }
@@ -107,16 +109,20 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
+    private fun clear(){
+        et_long?.editableText?.clear()
+        et_wide?.editableText?.clear()
+        et_tall?.editableText?.clear()
+        et_diameter?.editableText?.clear()
+        et_volume?.editableText?.clear()
+
+//                AnalyticsManager.trackClear()
+    }
+
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         return when(item?.itemId) {
             R.id.clear -> {
-                et_long?.editableText?.clear()
-                et_wide?.editableText?.clear()
-                et_tall?.editableText?.clear()
-                et_diameter?.editableText?.clear()
-                et_volume?.editableText?.clear()
-
-//                AnalyticsManager.trackClear()
+                clear()
                 true
             }
 
