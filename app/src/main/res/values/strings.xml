@@ -15,12 +15,12 @@
     <string name="cylinder">Cilindro</string>
     <string name="wide">Ancho</string>
     <string name="tall">Altura</string>
-    <string name="diameter">Díametro</string>
+    <string name="diameter">Diámetro</string>
     <string name="website">www.kaisa.app</string>
     <string name="email_kenny">kenny@kaisa.app</string>
     <string name="made_by">Desarrollado por Kenny Orellana</string>
     <string name="about">Información</string>
-    <string name="info">Esta app calcula la cantidad de BTI que se debe aplicar a un contenedor de agua. BTI es un bacilo no perjudicial para los humanos y se utiliza para eliminar las larvas de mosquitos, especialmente el Aedes Aegipty que transmite enfermedades como Dengue, Zika, Chikungunya y la Fiebre amarilla entre otras.</string>
+    <string name="info">Esta app calcula la cantidad de BTI que se debe aplicar a un contenedor de agua. BTI es un bacilo no perjudicial para los humanos y se utiliza para eliminar las larvas de mosquitos, especialmente el Aedes Aegipti que transmite enfermedades como Dengue, Zika, Chikungunya, Fiebre amarilla entre otras.</string>
     <string name="bti_grams">Gramos de BTI</string>
     <string name="clear">Limpiar</string>
 </resources>

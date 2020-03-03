@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AnalyticsManager.initialize(context = this)
-        AnalyticsManager.trackAppStart()
+//        AnalyticsManager.initialize(context = this)
+//        AnalyticsManager.trackAppStart()
 
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar as Toolbar)
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
 
         cl_about?.setOnClickListener {
             Utils.websiteIntent(this)
-            AnalyticsManager.trackDeepLink()
+//            AnalyticsManager.trackDeepLink()
         }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
                 et_diameter?.editableText?.clear()
                 et_volume?.editableText?.clear()
 
-                AnalyticsManager.trackClear()
+//                AnalyticsManager.trackClear()
                 true
             }
 
